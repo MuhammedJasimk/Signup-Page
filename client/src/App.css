@@ -20,3 +20,12 @@
 .bg-black{
     background-color: #000;
 }
+.w-65{
+width: 65%;
+}
+.w-35{
+   width: 35%; 
+}
+.w-95{
+    width: 95%; 
+ }
