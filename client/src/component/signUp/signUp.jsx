@@ -18,9 +18,13 @@ function SignUp(props) {
   }
 {
   user=="fan"?
-  axios.post('http://localhost:4001/api/user/fanSignup',data)
+  axios.post('http://localhost:4001/api/user/fanSignup',data).then((response)=>{
+    alert(response.data.message)
+  })
   :
-  axios.post('http://localhost:4001/api/user/talentSignup',data)
+  axios.post('http://localhost:4001/api/user/talentSignup',data).then(()=>{
+    alert(response.data.message)
+  })
 }
 
 

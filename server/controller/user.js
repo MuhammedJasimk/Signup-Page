@@ -21,7 +21,7 @@ module.exports = {
                 email:req.body.email,
                 password:hashPassword
             }).save()
-            res.json({admin:true})
+            res.json({message:"Account created succssfully"})
         }else{
             res.json({message:"password Error"})
         }
@@ -45,7 +45,7 @@ module.exports = {
                     email:req.body.email,
                     password:hashPassword
                 }).save()
-                res.json({admin:true})
+                res.json({message:"Account created succssfully"})
             }else{
                 res.json({message:"password Error"})
             }
