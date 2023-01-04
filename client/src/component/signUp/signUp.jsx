@@ -22,7 +22,7 @@ function SignUp(props) {
     alert(response.data.message)
   })
   :
-  axios.post('http://localhost:4001/api/user/talentSignup',data).then(()=>{
+  axios.post('http://localhost:4001/api/user/talentSignup',data).then((response)=>{
     alert(response.data.message)
   })
 }
