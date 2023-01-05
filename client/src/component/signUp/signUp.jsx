@@ -17,7 +17,7 @@ function SignUp(props) {
       password: userdt.password,
   }
 {
-  user=="fan"?
+  user=="Fan"?
   axios.post('http://localhost:4001/api/user/fanSignup',data).then((response)=>{
     alert(response.data.message)
   })
@@ -35,7 +35,7 @@ function SignUp(props) {
     <div className='d-flex justify-content-center'>
 
       <div className='col-md-6'>
-        <h4 className='font-weight-normal text-white text-center'>Create Your Fan Account</h4>
+        <h4 className='font-weight-normal text-white text-center'>Create Your {user} Account</h4>
         <form onSubmit={handleSubmit(onSubmit)}>
 
           <div className="mb-3 text-left">

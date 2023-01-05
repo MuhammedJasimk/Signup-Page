@@ -43,10 +43,10 @@ function signUp() {
                         className="mb-3 w-auto  border-0 rounded-pill d-flex justify-content-center"
                     >
                         <Tab eventKey="home" title="FAN SIGNUP" >
-                            <SignupForm user={"fan"}/>
+                            <SignupForm user={"Fan"}/>
                         </Tab>
                         <Tab eventKey="profile" title="TALENT SIGNUP">
-                            <SignupForm user={"talent"}/>
+                            <SignupForm user={"Talent"}/>
                         </Tab>
                     </Tabs>
                     </Container>
